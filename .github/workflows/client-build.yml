@@ -33,4 +33,4 @@ jobs:
         with:
           context: ./client
           push: true
-          tags: ghcr.io/${{ steps.owner.outputs.lc }}/ApuntesUCT-Kubero:latest
+          tags: ghcr.io/${{ steps.owner.outputs.lc }}/kubero-demo-todo-client:latest
