@@ -26,7 +26,7 @@ jobs:
 
       - name: Lowercase repository owner
         id: owner
-        run: echo "lc=${cchelooo}" >> "$https://github.com/cchelooo/kubero-demo-todo.git"
+        run: echo "lc=${cchelooo,,}" >> "$https://github.com/cchelooo/kubero-demo-todo.git"
 
       - name: Build and push
         uses: docker/build-push-action@v6
